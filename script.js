@@ -1,5 +1,5 @@
 // Define the Google Sheets API URL
-const googleSheetAPI = 'YOUR_GOOGLE_SHEET_API_URL';
+const googleSheetAPI = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTMlDHyVSmk_YHpAUZm2snAiDVuQyCmYRjOfcSRsS2AjjR8o-MtRwCjXwnqMmyy5cejvbvR61FzOKrD/pubhtml?gid=0&single=true';
 
 // Function to fetch and display student data
 async function fetchStudentData() {
