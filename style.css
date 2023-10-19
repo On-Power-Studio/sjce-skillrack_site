@@ -1,0 +1,62 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and basic font styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the student data container */
+#student-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Style individual student cards */
+#student-list > div {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Style student images */
+#student-list img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/* Style student names */
+#student-list p:nth-child(2) {
+    font-weight: bold;
+}
+
+/* Style SkillRack scores */
+#student-list p:nth-child(4) {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    #student-list > div {
+        width: 100%;
+    }
+}
